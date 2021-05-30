@@ -1,0 +1,31 @@
+.Icons {
+    padding: 0;
+    margin: 10px auto;
+}
+
+.fa {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 10px 0px 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: red;
+}
+
+.fa_github {
+    color: black;
+}
+
+.fa_twitter {
+    color: #38A1F3;
+}
+
+.fa_linkedin {
+    color: #2867B2;
+}
+
+.fa_twitch {
+    color: #a200ff;
+}

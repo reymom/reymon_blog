@@ -1,0 +1,45 @@
+.Header {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 0 .5rem 1rem 0 rgba(44,51,73,.1);
+    background-image: url("../../../assets/images/cool-background.png");
+    justify-content: space-between;
+    text-align: center;
+}
+
+.LogoContainer {
+    align-items: center;
+    margin: 0 auto;
+    order: 1;
+    transition: height .5s,margin .5s;
+    transform: translateZ(0);
+}
+
+.Toggle {
+    display: flex;
+    flex-basis: 0;
+    justify-content: space-between;
+}
+
+.Navigation {
+    order: 2;
+    display: inline-block;
+}
+
+.Header nav {
+    height: 100%;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+
+    .LogoContainer {
+        margin: 5px 15px -15px 0px;
+    }
+}

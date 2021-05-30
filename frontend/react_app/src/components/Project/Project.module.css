@@ -1,0 +1,36 @@
+.ProjectCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 0 0 calc(45% - 50px);
+    background: rgb(129, 143, 130);
+    margin: 10px;
+}
+
+.Faded {
+    opacity: 0.8;
+    background: rgb(131, 73, 73);
+}
+
+.ProjectCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Image {
+    border-radius: 5px 5px 0 0;
+}
+
+.Container {
+    padding: 2px 15px;
+}
+
+.Container p{
+    text-align: justify;
+}
+
+@media (max-width: 1000px) {
+    .ProjectCard {
+        flex: 0 0 90%;
+    }
+}

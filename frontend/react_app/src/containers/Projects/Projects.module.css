@@ -1,0 +1,24 @@
+.ProjectsPage {
+    text-align: center;
+    margin: 50px 10px 25px 10px;
+}
+
+.Projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.Projects a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width: 499px) {
+    .ProjectsPage {
+        margin-top: -30px;
+        margin-bottom: 0px;
+    }
+}

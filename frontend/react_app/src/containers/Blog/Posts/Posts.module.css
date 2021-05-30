@@ -1,0 +1,93 @@
+.Header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.CategoriesDropdown {
+    margin: auto;
+}
+
+.DropdownButton {
+    padding: 15px;
+    background-color: rgb(50, 92, 50);
+    color: rgb(141, 156, 200);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.DropdownContent {
+    padding: 10px;
+    display: none;
+    position: absolute;
+
+    margin-right: calc(40%);
+    margin-left: calc(40%);
+
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #d6edee;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.DropdownContent p {
+    color: black;
+    padding: 2px;
+    font-family: inherit;
+    font-size: 1.2em;
+    color: rgb(0, 117, 35);
+    cursor: pointer;
+    display: block;
+}
+
+.DropdownContent p:hover, p:active {
+    background-color: #72cddd;
+}
+
+/* .CategoriesDropdown:hover .DropdownContent{
+    display: block;
+} */
+
+.ShowDropdownContent {
+    display: block;
+}
+
+/* .CategoriesDropdown:hover .DropdownButton{
+    background-color: #8ac28f;
+    color: rgb(5, 5, 5);
+} */
+
+.Posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+@media (max-width: 499px) {
+    .Header {
+        margin-top: -25px;
+        margin-bottom: 5px;
+    }
+
+    .DropdownContent {
+        margin-right: calc(25%);
+        margin-left: calc(25%);
+    }
+}
+
+@media (max-width: 1000px) {
+    .DropdownContent {
+        margin-right: calc(30%);
+        margin-left: calc(30%);
+    }
+
+    .DropdownContent p {
+        font-size: 1.1em;
+    }
+}

@@ -1,0 +1,9 @@
+.Blog {
+    margin: 10px 50px 50px 50px;
+}
+
+@media (max-width: 550px) {
+    .Blog {
+        margin: 5px 15px 10px 15px;
+    }
+}
