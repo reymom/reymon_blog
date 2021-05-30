@@ -1,4 +1,4 @@
 *.env
 *.pyc
 backend/django_app/media
-backend/django_app/blog/migrations
+*/__pycache__
